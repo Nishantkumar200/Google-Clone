@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.searchPage{
+    padding: 20px;
+}
+.searchPage .searchPage_header{
+    margin-top: 20px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid  lightgrey;
+    z-index: 1000;
+    background-color: white;
+  
+}
+.searchPage .searchPage_header a img{
+    width: 140px;
+    height: 100px;
+    object-fit: contain;
+    margin: -25px 60px 0px 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.search_bodyheader .search_option{
+       padding: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.search_bodyheader .search_option .search_optionLeft{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.search_bodyheader .search_option .search_optionLeft a{
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    color: grey;
+    margin-right: 18px;
+    text-decoration: none;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.search_bodyheader .search_option .search_optionRight a{
+    color: grey;
+    margin-right: 15px;
+    text-decoration: none;
+     font-size: 15px;
+     text-transform: lowercase;
+}
+
+.searchPage_result{
+    position: relative;
+    margin-top: 10px;
+    justify-content: start;
+
+}
+
+.searchPage_count{
+    font-size: 14px;
+    color: grey;
+    margin-left: 160px;
+    margin-bottom: 20px;
+}
+
+.searchPage_result{
+    margin-left: 150px;
+    padding: 10px;
+    margin-right: auto;
+    
+
+}
+.searchPage_result>a:nth-child(1){
+    font-family: sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+
+  
+
+}
+.searchPage_result .searchPage_resultTitle{
+    font-size: 13px;
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.searchPage_result .searchPage_resultSnippet{
+    font-size: 14px;
+    color: grey;
+
+}
